@@ -1,0 +1,25 @@
+{
+  "name": "crud_nodejs",
+  "author": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "dev": "nodemon --watch ./dist -- ./dist/index.js",
+    "test": "node ./tests/index.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.29",
+    "get-port": "^7.1.0",
+    "nodemon": "^3.1.10",
+    "prisma": "^6.9.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.9.0",
+    "express": "^5.1.0"
+  }
+}
